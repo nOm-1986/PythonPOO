@@ -14,7 +14,15 @@
         - Encapsulación.
     
     INSTANCIAS
-        - Mientras que la clase es un molde, a los objetos cre
+        - Mientras que la clase es un molde, a los objetos creados se les conoce como instancias.
+        - Cuando se crea una instancia, se ejecuta el método __init__
+        - Todos los métodos de una clase reciben implícitamente como primer parámetro self
+        - Los atributos de clase nos permiten:
+            - Representar datos
+            - Procedimientos para interactura con los mismos(métodos)
+            - Mecanismos para esconder la representación interna.
+        - Se accede a los atributos con la notación de punto.
+        - Puede tener atributos privados. Por convención comienzan con _
     
     Saber si lo que pasamos es instancia de algo: isinstance()
 '''
